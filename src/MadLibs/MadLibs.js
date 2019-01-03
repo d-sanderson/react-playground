@@ -6,13 +6,17 @@ class MadLibs extends React.Component {
 		this.state = {
 			pluralNoun1: '',
 			adverb1: '',
-			bodyPart: '',
+			verb1: '',
+			articleOfClothing: '',
+			bodyPart1: '',
 			adjective1: '',
 			noun1: '',
+			pluralNoun2: '',
 			bodyPart2: '',
 			pluralNoun3: '',
 			bodyPart3: '',
 			noun2: '',
+			noun3: '',
 			verbwing: '',
 			adjective2: '',
 			adjective3: '',
@@ -20,34 +24,15 @@ class MadLibs extends React.Component {
 		};
 
 		this.handleChange = this.handleChange.bind(this);
-		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	handleChange(event) {
-		this.setState({
 
+		this.setState({
+		[event.target.name] : event.target.value
 		})
 
 
-	}
-
-	handleSubmit() {
-		this.setState({
-			pluralNoun1: ,
-			adverb1: ,
-			bodyPart: ,
-			adjective1: ,
-			noun1: ,
-			bodyPart2: ,
-			pluralNoun3: ,
-			bodyPart3: ,
-			noun2: ,
-			verbwing: ,
-			adjective2: ,
-			adjective3: ,
-			verb2:
-
-		})
 	}
 
 	render() {
@@ -68,82 +53,86 @@ class MadLibs extends React.Component {
 				<br />
 
 
-				<form onSubmit={this.handleSubmit}>
+				<form>
 					<label>
 						Plural Noun:
-						<input type="text" value={this.state.pluralNoun1} onChange={this.handleChange}/>
+						<input type="text" name="pluralNoun1" value={this.state.pluralNoun1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Adverb:
-						<input type="text" value={this.state.adverb1} onChange={this.handleChange}/>
+						<input type="text" name="adverb1" value={this.state.adverb1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Verb:
-						<input type="text" value={this.state.verb1} onChange={this.handleChange}/>
+						<input type="text" name="verb1" value={this.state.verb1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Article of Clothing:
-						<input type="text" value={this.state.articleOfClothing} onChange={this.handleChange}/>
+						<input type="text" name="articleOfClothing" value={this.state.articleOfClothing} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Body Part:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="bodyPart1" value={this.state.bodyPart1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Adjective:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="adjective1" value={this.state.adjective1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Noun:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="noun1" value={this.state.noun1} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Plural Noun:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="pluralNoun2" value={this.state.pluralNoun2} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Body Part:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="bodyPart2" value={this.state.bodyPart2} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Plural Noun:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="pluralNoun3" value={this.state.pluralNoun3} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Body Part:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="bodyPart3" value={this.state.bodyPart3} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Noun:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="noun2" value={this.state.noun2} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Noun:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="noun3" value={this.state.noun3} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Verb ending in -ing:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="verbwing" value={this.state.verbwing} onChange={this.handleChange}/>
 					</label>
 
 					<label>
 						Adjective:
-						<input type="text" value={this.state.value} onChange={this.handleChange}/>
+						<input type="text" name="adjective3" value={this.state.adjective3} onChange={this.handleChange}/>
 					</label>
-					<input type="submit" value="Submit"/>
+
+					<label>
+						Verb:
+						<input type="text" name="verb2" value={this.state.verb2} onChange={this.handleChange}/>
+					</label>
 				</form>
 
 
