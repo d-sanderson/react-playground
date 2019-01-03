@@ -61,63 +61,63 @@ class MadLib2 extends React.Component {
 						Adjective:
 						<input type="text" name="adjective1" value={this.state.adjective1} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 						Adjective:
 					<input type="text" name="adjective2" value={this.state.adjective2} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 						Body Part:
 						<input type="text" name="bodyparts1" value={this.state.bodyparts1} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Body Part:
 					<input type="text" name="bodyparts2" value={this.state.bodyparts2} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 						Noun:
 						<input type="text" name="noun1" value={this.state.noun1} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun2" value={this.state.noun2} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun3" value={this.state.noun3} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun4" value={this.state.noun4} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun5" value={this.state.noun5} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun6" value={this.state.noun6} onChange={this.handleChange}/>
 					</label>
-
+<br />
 
 					<label>
 						Adjective:
 						<input type="text" name="adjective3" value={this.state.adjective3} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 						Noun:
 						<input type="text" name="noun7" value={this.state.noun7} onChange={this.handleChange}/>
 					</label>
-
+<br />
 					<label>
 					Noun:
 					<input type="text" name="noun8" value={this.state.noun8} onChange={this.handleChange}/>
