@@ -39,7 +39,7 @@ class MadLib2 extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>{this.state.headline} </h1>
+				<h2>{this.state.headline} </h2>
 				{this.state.noun8 !== '' ?
 					<div>
 				Here is a list of the most {this.state.adjective1} horror
