@@ -40,7 +40,8 @@ class MadLibs extends React.Component {
 	render() {
 		return (
 			<div>
-				{this.state.verb2 !== ''? <div> <h1>{this.state.headline} </h1>
+				<h1>{this.state.headline} </h1>
+				{this.state.verb2 !== ''? <div>
 				<p> It is simple turn the {this.state.pluralNoun1}. Make him/her want {this.state.adverb1} to date you. Make sure you are always dressed to {this.state.verb1}. Each and
 				everyday wear a an {this.state.articleOfClothing} that you know shows of your {this.state.bodyPart1} to {this.state.adjective1} advantage and make
 				your {this.state.noun1} look like a million {this.state.pluralNoun2} even if the two of you make

@@ -16,7 +16,7 @@ img {
 	width: 33%;
 }
 
-form {
+form, ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

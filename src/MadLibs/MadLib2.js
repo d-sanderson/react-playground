@@ -39,8 +39,9 @@ class MadLib2 extends React.Component {
 	render() {
 		return (
 			<div>
+				<h1>{this.state.headline} </h1>
 				{this.state.noun8 !== '' ?
-					<div> <h1>{this.state.headline} </h1>
+					<div>
 				Here is a list of the most {this.state.adjective1} horror
 				{this.state.pluralNoun1} ever made in Hollywood! Each of these
 				{this.state.adjective2} films received a rating of two {this.state.bodyparts1} -up
