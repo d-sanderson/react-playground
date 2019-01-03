@@ -39,8 +39,7 @@ class MadLibs extends React.Component {
 		return (
 			<div>
 				<h1>How to date the Coolest Person in School. </h1>
-				<p> It is simple turn the {this.state.pluralNoun1}. Make him
-				her want {this.state.adverb1} to date you. Make sure you are always dressed to {this.state.verb1}. Each and
+				<p> It is simple turn the {this.state.pluralNoun1}. Make him/ her want {this.state.adverb1} to date you. Make sure you are always dressed to {this.state.verb1}. Each and
 				everyday wear a an {this.state.articleOfClothing}
 				that you know shows of your {this.state.bodyPart1} to {this.state.adjective1} advantage and make
 				your {this.state.noun1} look like a million {this.state.pluralNoun2} even if the two of you make
